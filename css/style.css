@@ -33,7 +33,7 @@
 
 body {
     font-family: bryant-web, sans-serif;
-    color: #E9E581;
+    color: #68C5AE;
     background-color: #11294C;
     text-align: center;
     margin: 0;
@@ -92,7 +92,7 @@ h1 {
     left: 50%; 
     margin-top: -1em;
     margin-left: 0em;
-      background: #E9E581;
+      background: #68C5AE;
       position: absolute;
       border-radius: 1em;
       -webkit-animation: 1s gear-rotate linear infinite;
@@ -105,7 +105,7 @@ h1 {
     top: 50%;
     width: 2em;
       height: 2em;
-      background: #E9E581;
+      background: #68C5AE;
       position: absolute;
       border-radius: 1em;
     -webkit-animation: 1s gear-rotate-left linear infinite;
@@ -117,22 +117,22 @@ h1 {
       width: 2.8em;
       height: 2.8em;
       background: 
-      -webkit-linear-gradient(0deg,transparent 39%,#E9E581 39%,#E9E581 61%, transparent 61%),
-      -webkit-linear-gradient(60deg,transparent 42%,#E9E581 42%,#E9E581 58%, transparent 58%),
-      -webkit-linear-gradient(120deg,transparent 42%,#E9E581 42%,#E9E581 58%, transparent 58%);
+      -webkit-linear-gradient(0deg,transparent 39%,#68C5AE 39%,#68C5AE 61%, transparent 61%),
+      -webkit-linear-gradient(60deg,transparent 42%,#68C5AE 42%,#68C5AE 58%, transparent 58%),
+      -webkit-linear-gradient(120deg,transparent 42%,#68C5AE 42%,#68C5AE 58%, transparent 58%);
       background: 
-      -moz-linear-gradient(0deg,transparent 39%,#E9E581 39%,#47EC19 61%, transparent 61%),
-      -moz-linear-gradient(60deg,transparent 42%,#E9E581 42%,#E9E581 58%, transparent 58%),
-      -moz-linear-gradient(120deg,transparent 42%,#E9E581 42%,#E9E581 58%, transparent 58%);
+      -moz-linear-gradient(0deg,transparent 39%,#68C5AE 39%,#47EC19 61%, transparent 61%),
+      -moz-linear-gradient(60deg,transparent 42%,#68C5AE 42%,#68C5AE 58%, transparent 58%),
+      -moz-linear-gradient(120deg,transparent 42%,#68C5AE 42%,#68C5AE 58%, transparent 58%);
       background: 
-      -o-linear-gradient(0deg,transparent 39%,#E9E581 39%,#E9E581 61%, transparent 61%),
-      -o-linear-gradient(60deg,transparent 42%,#E9E581 42%,#E9E581 58%, transparent 58%),
-      -o-linear-gradient(120deg,transparent 42%,#47EC19 42%,#E9E581 58%, transparent 58%);
-      background: -ms-linear-gradient(0deg,transparent 39%,#E9E581 39%,#E9E581 61%, transparent 61%),-ms-linear-gradient(60deg,transparent 42%,#E9E581 42%,#E9E581 58%, transparent 58%),-ms-linear-gradient(120deg,transparent 42%,#E9E581 42%,#E9E581 58%, transparent 58%);
+      -o-linear-gradient(0deg,transparent 39%,#68C5AE 39%,#68C5AE 61%, transparent 61%),
+      -o-linear-gradient(60deg,transparent 42%,#68C5AE 42%,#68C5AE 58%, transparent 58%),
+      -o-linear-gradient(120deg,transparent 42%,#47EC19 42%,#68C5AE 58%, transparent 58%);
+      background: -ms-linear-gradient(0deg,transparent 39%,#68C5AE 39%,#68C5AE 61%, transparent 61%),-ms-linear-gradient(60deg,transparent 42%,#68C5AE 42%,#68C5AE 58%, transparent 58%),-ms-linear-gradient(120deg,transparent 42%,#68C5AE 42%,#68C5AE 58%, transparent 58%);
       background: 
-        linear-gradient(0deg,transparent 39%,#E9E581 39%,#E9E581 61%, transparent 61%),
-      linear-gradient(60deg,transparent 42%,#E9E581 42%,#E9E581 58%, transparent 58%),
-      linear-gradient(120deg,transparent 42%,#E9E581 42%,#E9E581 58%, transparent 58%);
+        linear-gradient(0deg,transparent 39%,#68C5AE 39%,#68C5AE 61%, transparent 61%),
+      linear-gradient(60deg,transparent 42%,#68C5AE 42%,#68C5AE 58%, transparent 58%),
+      linear-gradient(120deg,transparent 42%,#68C5AE 42%,#68C5AE 58%, transparent 58%);
       position: absolute;
       content:"";
       top: -.4em;

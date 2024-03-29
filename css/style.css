@@ -35,5 +35,15 @@
 body {
     font-family: bryant-web, sans-serif;
     color: #68C5AE;
-    background-color: black;
+    background-color: #11294C;
+    text-align: center;
+    margin: 0;
+}
+
+h1, p {
+    margin: 0;
+}
+
+h1 {
+    margin: 4em 0 0 0;
 }

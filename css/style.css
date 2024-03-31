@@ -34,9 +34,9 @@
 body {
     font-family: bryant-web, sans-serif;
     color: #68C5AE;
-    background-color: #11294C;
+    /* background-color: #11294C; */
     /* text-align: center; */
-    background-image: url();
+    background-image: url(https://github.com/JulzVision/amorphian/blob/dev/img/SVG/placeholder_1440.svg);
     margin: 0;
 
 }

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 201.28 225.32">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #11294c;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: #593820;
+      }
+
+      .cls-5 {
+        letter-spacing: .08em;
+      }
+
+      .cls-6 {
+        fill: #68c5ae;
+      }
+
+      .cls-6, .cls-7, .cls-8, .cls-9 {
+        font-size: 23.25px;
+      }
+
+      .cls-6, .cls-8 {
+        font-family: Bryant-Regular, Bryant;
+        letter-spacing: .03em;
+      }
+
+      .cls-10 {
+        letter-spacing: .08em;
+      }
+
+      .cls-7 {
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+      }
+
+      .cls-7, .cls-8, .cls-9 {
+        fill: #7baa63;
+      }
+
+      .cls-3 {
+        fill: #253e89;
+      }
+
+      .cls-4 {
+        fill: #11294c;
+      }
+
+      .cls-9 {
+        font-family: Bryant-RegularItalic, Bryant;
+        font-style: italic;
+        letter-spacing: .05em;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1" data-name="Layer 1">
+    <rect class="cls-3" width="200" height="30"/>
+    <text class="cls-7" transform="translate(25.73 23.42)"><tspan class="cls-5" x="0" y="0">amo</tspan><tspan class="cls-10" x="48.94" y="0">r</tspan><tspan class="cls-5" x="58.49" y="0">phian.io</tspan></text>
+    <rect class="cls-2" x="1" y="57" width="200.28" height="30.32"/>
+    <text class="cls-9" transform="translate(28.17 80)"><tspan x="0" y="0">amorphian.io</tspan></text>
+  </g>
+  <g id="Layer_2" data-name="Layer 2">
+    <text class="cls-6" transform="translate(19.66 218)"><tspan x="0" y="0">amorphian.io</tspan></text>
+    <rect class="cls-4" x="2" y="155" width="176" height="30"/>
+    <text class="cls-6" transform="translate(19.66 176)"><tspan x="0" y="0">amorphian.io</tspan></text>
+    <rect class="cls-1" x="1" y="108" width="200.28" height="30"/>
+    <text class="cls-8" transform="translate(30.8 129)"><tspan x="0" y="0">amorphian.io</tspan></text>
+  </g>
+</svg>

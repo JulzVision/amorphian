@@ -1,0 +1,129 @@
+@charset "UTF-8";
+
+/* TABLE OF CONTENTS
+    #BASE CONTENT
+        #WEBFONTS & TYPOGRAPHY
+        #RESET
+        #BODY
+            #NAV
+
+------------*/
+
+/* #TYPOGRAPHY  */
+/* Reference
+	62.5%  => 10px
+	68.8%  => 11px
+	75%    => 12px
+	81.3%  => 13px
+	87.5%  => 14px
+	100%   => 16px
+	112.5% => 18px
+	125%   => 20px
+*/
+
+/* WEBFONTS & TYPOGRAPHY */
+
+@font-face {
+    font-family: bryant-web, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    src: url("https://use.typekit.net/xyk3axk.css");
+}
+
+/* RESET */
+body {
+    font-family: bryant-web, sans-serif;
+    color: #68C5AE;
+    /* background-color: #11294C; */
+    /* text-align: center; */
+    background-image: url(https://raw.githubusercontent.com/JulzVision/amorphian/9cf8606568b664a4ab6d527d4395f5b13aa92ec9/img/SVG/placeholder_1440.svg);
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+}
+
+@media (max-width: 767px) {
+    .menuitem {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .hamburger {
+        display: none;
+    }
+}
+
+/* NAV */
+
+nav {
+    background-color: transparent;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li {
+    height: 50px;
+    list-style-type: none
+}
+
+nav a {
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #68C5AE;
+}
+
+nav a:hover {
+    background-color: #469b85;
+    color: white;
+    border-radius: 6px;
+}
+
+nav li:first-child {
+    margin-right: auto;
+}
+
+/* FIX: THIS ONLY WORKS ON HOVER OVER ICON, NOT CONTAINER*/
+.icon:hover {
+    fill:white;
+}
+
+.hamburger:hover > .icon *,
+.hamburger:hover {
+    fill: white;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: #f3fdfb68;
+    backdrop-filter: blur(10px);
+    /* box-shadow: -10px 0 10px rgba(0, 0, 0, .1); */
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sidebar li {
+    width: 100%;
+    /* border: solid red 1px; */
+}
+
+.sidebar a {
+    width: 100%;
+}

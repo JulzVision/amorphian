@@ -4,6 +4,7 @@
     #BASE CONTENT
         #WEBFONTS & TYPOGRAPHY
         #RESET
+        #MEDIA QUERIES
         #BODY
             #NAV
 
@@ -30,19 +31,61 @@
     src: url("https://use.typekit.net/xyk3axk.css");
 }
 
-/* RESET */
-body {
-    font-family: bryant-web, sans-serif;
-    color: #68C5AE;
-    /* background-color: #11294C; */
-    /* text-align: center; */
-    background-image: url(https://raw.githubusercontent.com/JulzVision/amorphian/9cf8606568b664a4ab6d527d4395f5b13aa92ec9/img/SVG/placeholder_1440.svg);
+h1, h2, h3, h4, h5, h6 {
     margin: 0;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    min-height: 100vh;
+    padding: 0;
+    font-weight: 400;
+
+
 }
+
+h1 {
+    font-weight: 400;
+    line-height: 100%;
+    margin: .5em 0;
+}
+
+h2 {
+    margin: .45em 0;
+
+}
+
+h3 {
+    margin: .4em 0;
+
+}
+
+h4 {
+    margin: .3em 0;
+
+}
+
+h5 {
+    margin: .25em 0;
+
+}
+
+h6 {
+    margin: .25em 0;
+}
+
+.eyebrow {
+    /* margin: 0; */
+}
+
+p {
+    font-size: 100%;
+    font-weight: 300;
+    color: rgb(220, 220, 220);
+}
+
+/* RESET */
+html {
+    margin: 0;
+    padding: 0;
+}
+
+/* MEDIA QUERIES */
 
 @media (max-width: 767px) {
     .menuitem {
@@ -56,17 +99,57 @@ body {
     }
 }
 
+body {
+    --nav-height: 50px;
+    padding-top: var(--nav-height);
+    font-family: bryant-web, sans-serif;
+    color: #68C5AE;
+    /* background-color: #11294C; */
+    /* text-align: center; */
+    background-image: url(https://raw.githubusercontent.com/JulzVision/amorphian/9cf8606568b664a4ab6d527d4395f5b13aa92ec9/img/SVG/placeholder_1440.svg);
+    margin: 0 2em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+}
+
 /* NAV */
 
-nav {
-    background-color: transparent;
+.nav {
+    background-color: #11294c72;
+    backdrop-filter: blur(6px);
+    width: 100%;
+    height: var(--nav-height);
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* display: flex; */
+    align-items: center;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+    transition: transform 0.2s;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-right: auto;
 }
 
 nav ul {
     list-style: none;
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+ul.spaced {
+    justify-content: space-between;
+}
+
+.menulinks {
+    display: flex;
+    flex-direction: row;
 }
 
 nav li {
@@ -93,6 +176,11 @@ nav li:first-child {
     margin-right: auto;
 }
 
+.nav--hidden {
+    transform: translateY(calc(-1 * var(--nav-height)));
+    box-shadow: none;
+  }
+
 /* FIX: THIS ONLY WORKS ON HOVER OVER ICON, NOT CONTAINER*/
 .icon:hover {
     fill:white;
@@ -108,15 +196,16 @@ nav li:first-child {
     top: 0;
     right: 0;
     height: 100vh;
-    width: 250px;
+    width: 300px;
     z-index: 999;
-    background-color: #f3fdfb68;
+    background-color: #f3fdfb;
     backdrop-filter: blur(10px);
-    /* box-shadow: -10px 0 10px rgba(0, 0, 0, .1); */
+    box-shadow: -10px 0 10px rgba(0, 0, 0, .1);
     display: none;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
+    padding-left: 0px;
 }
 
 .sidebar li {
@@ -126,4 +215,8 @@ nav li:first-child {
 
 .sidebar a {
     width: 100%;
+}
+
+.sidebar a:hover {
+    border-radius: 0;
 }
